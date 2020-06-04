@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Component } from "react";
 import ReactDOM from 'react-dom';
+// components
+import OnOffSwitch from './components/switch/switch'
 
-class App extends React.Component {
+class App extends Component {
   render() {
-    return <h1>Test hot reload ok we can develop now jesus that took forever</h1>
+    return (
+    <div className="App">
+      <h1>Dishwasher</h1>
+      <OnOffSwitch/>
+    </div>
+    );
   }
 }
 
