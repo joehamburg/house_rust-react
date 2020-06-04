@@ -1,0 +1,26 @@
+{
+  "name": "house_rust-react",
+  "version": "0.1.0",
+  "repository": "",
+  "description": "",
+  "main": "frontend/index.js",
+  "scripts": {
+    "start": "cargo run",
+    "build": "cargo  build && npm install && sudo node_modules/webpack/bin/webpack.js",
+    "dev": "webpack-dev-server --content-base static/ --hot --inline"
+  },
+  "author": "Joe Hamburg <joehambrg@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
