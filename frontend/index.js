@@ -6,10 +6,10 @@ import OnOffSwitch from './components/switch/switch'
 class App extends Component {
   render() {
     return (
-    <div className="App">
-      <h1>Dishwasher</h1>
-      <OnOffSwitch/>
-    </div>
+      <div className="App">
+        <h1>Dishwasher</h1>
+        <OnOffSwitch/>
+      </div>
     );
   }
 }
