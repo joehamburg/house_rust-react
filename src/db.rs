@@ -7,6 +7,8 @@ use rocket::request::{self, FromRequest};
 use std::env;
 use std::ops::Deref;
 
+/*--------------------------------------------------------------------------------------------------------------------*/
+
 type Pool = r2d2::Pool<ConnectionManager<PgConnection>>;
 
 pub fn init_pool() -> Pool {
