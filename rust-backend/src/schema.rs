@@ -5,4 +5,3 @@ table! {
         available -> Bool,
     }
 }
-
