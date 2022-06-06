@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Joe Hamburg <joehambrg@gmail.com>"]
 
 [dependencies]
-rocket = { version = "0.4.2", default-features = false }
+rocket = { version = "0.4.7", default-features = false }
 rocket_cors = "0.5.2"
 rocket_codegen = "*"
 diesel = { version = "1.0.0", features = ["postgres"] }
