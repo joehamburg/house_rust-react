@@ -7,7 +7,7 @@ authors = ["Joe Hamburg <joehambrg@gmail.com>"]
 rocket = { version = "0.4.2", default-features = false }
 rocket_cors = "0.5.2"
 rocket_codegen = "*"
-diesel = { version = "1.0.0", features = ["postgres"] }
+diesel = { version = "1.4.6", features = ["postgres"] }
 dotenv = "0.9.0"
 r2d2-diesel = "1.0"
 r2d2 = "0.8"
